@@ -15,7 +15,7 @@ pkg install wget
 # 
 these are necessary for installing XFCE4 in termux and it uses Termux:X11 not VNC
 # script
-not availble now
+wget https://raw.githubusercontent.com/ashvath-nwo/XFCE4-in-termux/refs/heads/main/scripts/Xfce4.sh && chmod +x Xfce4.sh && ./Xfce4.sh && rm -f Xfce4.sh
 # Apps Required
 Termux
 #
