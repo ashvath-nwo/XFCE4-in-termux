@@ -20,5 +20,7 @@ wget https://raw.githubusercontent.com/ashvath-nwo/XFCE4-in-termux/refs/heads/ma
 Termux
 #
 Termux:X11
+# Pulseaudio preinstalled
+in the script it has the script to install PulseAudio to listen the audio
 # Tested Devices
 It was tested in Samsung Galaxy M12 using Termux version 0.118.0.
