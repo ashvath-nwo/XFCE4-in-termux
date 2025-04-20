@@ -14,8 +14,13 @@ pkg upgrade -y
 pkg install wget
 # 
 these are necessary for installing XFCE4 in termux and it uses Termux:X11 not VNC
-# script
+# 
+
+<a name=XFCE4-installation-command></a>
+- `XFCE4 Installation command` :
+```bash
 wget https://raw.githubusercontent.com/ashvath-nwo/XFCE4-in-termux/refs/heads/main/scripts/Xfce4.sh && chmod +x Xfce4.sh && ./Xfce4.sh && rm -f Xfce4.sh
+```
 # Apps Required
 - **Termux** : A terminal emulator for Android that allows you to run Linux commands on your device.  
   [![Download Termux](https://img.shields.io/badge/Download-Termux-brightgreen?style=for-the-badge&logo=android)](https://github.com/termux/termux-app/releases/download/v0.118.2/termux-app_v0.118.2+github-debug_arm64-v8a.apk) - click to download
