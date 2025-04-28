@@ -5,21 +5,13 @@ How to install XFCE4 Desktop Environment in termux
 #
 This method does not require proot-distro and AnLinux
 #
-First make sure to execute these commands below
-# commands
-pkg update
-#
-pkg upgrade -y
-#
-pkg install wget
-# 
 these are necessary for installing XFCE4 in termux and it uses Termux:X11 not VNC
 # 
 
 <a name=XFCE4-installation-command></a>
 - `XFCE4 Installation command` :
 ```bash
-wget https://raw.githubusercontent.com/ashvath-nwo/XFCE4-in-termux/refs/heads/main/scripts/Xfce4.sh && chmod +x Xfce4.sh && ./Xfce4.sh && rm -f Xfce4.sh
+curl -o Xfce4.sh https://raw.githubusercontent.com/ashvath-nwo/XFCE4-in-termux/refs/heads/main/scripts/Xfce4.sh && chmod +x Xfce4.sh && ./Xfce4.sh && rm -f Xfce4.sh
 ```
 # Apps Required
 - **Termux** : A terminal emulator for Android that allows you to run Linux commands on your device.  
