@@ -1,6 +1,7 @@
 pkg update
 pkg install x11-repo -y
 pkg install termux-x11-nightly -y
+pkg install xorg-server
 pkg install xfce4 -y
 pkg install xfce4-session -y
 pkg install dbus -y
